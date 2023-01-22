@@ -75,7 +75,7 @@ static const struct arg args[] = {
 	{ battery_state,      "^c#3ACF3A^%s",          "BAT0" },
 	{ battery_perc,       "^c#3ACF3A^%s ",         "BAT0" },
 	{ temp,               "^c#00D1D1^ %s ",       "/sys/class/thermal/thermal_zone0/subsystem/thermal_zone9/temp" },
-	{ run_command,        "^c#B5EECB^%s ",          "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
-	{ ram_used,           "^c#fdb750^  %s ",       NULL },
-	{ datetime,           "^c#ff5555^󱑆 %s",         "%H:%M %a %d %b" },
+  { vol_perc,           "^C#FF1205^ %s",        "Master" },
+	{ ram_used,           "^c#fdb750^  %s ",      NULL },
+	{ datetime,           "^c#ff5555^󱑆 %s",        "%H:%M %a %d %b" },
 };
