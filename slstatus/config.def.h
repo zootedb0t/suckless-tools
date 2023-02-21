@@ -69,14 +69,10 @@ static const struct arg args[] = {
 	{ netspeed_rx,        "^c#A020F0^ %s",        "wlan0" },
 	{ netspeed_tx,        "^c#A020F0^ %s ",       "wlan0" },
 	{ run_command,        "^c#FFA384^ %s ",       "sh ~/.local/src/suckless/dwm/scripts/update.sh" },
-	// { run_command,     "%s",                    "sh /home/stoney/.local/src/suckless/dwm/scripts/bar.sh updates"},
-	// { run_command,     "^c#FAFA0F^%s",          "echo $(checkupdates|wc -l) updates" },
-	// { run_command,        "$s",                    "echo $([ "$(pamixer --get-mute)" = "false" ] && printf ' ' || printf ' ')$(pamixer --get-volume)};
 	{ battery_state,      "^c#3ACF3A^%s",          "BAT0" },
 	{ battery_perc,       "^c#3ACF3A^%s ",         "BAT0" },
 	{ temp,               "^c#00D1D1^ %s ",       "/sys/class/thermal/thermal_zone0/subsystem/thermal_zone9/temp" },
-  // { vol_perc,           "^C#FF1205^ %s",        "Master" },
-  { run_command,        "^c#ff5555^%s ",          "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
-	{ ram_used,           "^c#fdb750^ %s ",      NULL },
-	{ datetime,           "^c#ff5555^󱑆 %s",        "%H:%M %a %d %b" },
+	{ run_command,        "^c#ff5555^%s ",         "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
+	{ ram_used,           "^c#fdb750^󰍛 %s ",       NULL },
+	{ datetime,           "^c#ff5555^󰥔 %s",        "%H:%M %a %d %b" },
 };
