@@ -66,13 +66,13 @@ static const char unknown_str[] = "";
 static const struct arg args[] = {
 	/* function             format                          argument */
 
-	{ netspeed_rx,        "^c#A020F0^ %s",        "wlan0" },
-	{ netspeed_tx,        "^c#A020F0^ %s ",       "wlan0" },
-	{ run_command,        "^c#FFA384^ %s ",       "sh ~/.local/src/suckless/dwm/scripts/update.sh" },
+	{ netspeed_rx,        "^c#DBD5B5^ %s",        "wlan0" },
+	{ netspeed_tx,        "^c#DBD5B5^ %s ",       "wlan0" },
+	{ run_command,        "^c#4CC9F0^ %s ",       "sh ~/.local/src/suckless/dwm/scripts/update.sh" },
 	{ battery_state,      "^c#3ACF3A^%s",          "BAT0" },
 	{ battery_perc,       "^c#3ACF3A^%s ",         "BAT0" },
-	{ temp,               "^c#00D1D1^ %s ",       "/sys/class/thermal/thermal_zone0/subsystem/thermal_zone9/temp" },
-	{ run_command,        "^c#ff5555^%s ",         "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
-	{ ram_used,           "^c#fdb750^󰍛 %s ",       NULL },
-	{ datetime,           "^c#ff5555^󰥔 %s",        "%H:%M %a %d %b" },
+	{ temp,               "^c#E76F51^ %s ",       "/sys/class/thermal/thermal_zone0/subsystem/thermal_zone9/temp" },
+	{ run_command,        "^c#06D6A0^%s ",         "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
+	{ ram_used,           "^c#FFD166^󰍛 %s ",       NULL },
+	{ datetime,           "^c#F8333C^󰥔 %s",        "%H:%M %a %d %b" },
 };
