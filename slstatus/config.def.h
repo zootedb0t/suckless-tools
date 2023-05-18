@@ -68,7 +68,7 @@ static const struct arg args[] = {
 
 	{ netspeed_rx,        "^c#DBD5B5^ %s",        "wlan0" },
 	{ netspeed_tx,        "^c#DBD5B5^ %s ",       "wlan0" },
-	{ run_command,        "^c#4CC9F0^ %s ",       "sh ~/.local/src/suckless/dwm/scripts/update.sh" },
+	{ run_command,        "^c#4CC9F0^󰏕 %s ",       "sh ~/.local/src/suckless/dwm/scripts/update.sh" },
 	{ battery_state,      "^c#3ACF3A^%s",          "BAT0" },
 	{ battery_perc,       "^c#3ACF3A^%s ",         "BAT0" },
 	{ temp,               "^c#E76F51^ %s ",       "/sys/class/thermal/thermal_zone0/subsystem/thermal_zone9/temp" },
