@@ -75,6 +75,6 @@ static const struct arg args[] = {
 	{ run_command,        "^c#06D6A0^%s ",         "sh ~/.local/src/suckless/dwm/scripts/vol.sh" },
 	{ ram_used,           "^c#FFD166^󰍛 %s ",       NULL },
 	{ datetime,           "^c#F8333C^󰥔 %s ",        "%H:%M %a %d %b" },
-	{ run_command,        "^c#FFD166^%s ",         "sh ~/.local/src/suckless/dwm/scripts/net.sh" },
+	{ run_command,        "^c#FFD166^%s",         "sh ~/.local/src/suckless/dwm/scripts/net.sh" },
 	{ wifi_perc,          "^c#FFD166^%s",         "wlan0" },
 };
